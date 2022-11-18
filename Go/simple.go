@@ -2,9 +2,14 @@ package main
 
 import (
 	"fmt"
-	"time"
+	t "time"
 )
 
+/*
+simple test print of time and strings
+with some multiline importing and
+time module
+*/
 func main() {
 	fmt.Println("    `.-::::::-.`    ")
 	fmt.Println(".:-::::::::::::::-:.")
@@ -19,6 +24,6 @@ func main() {
 	fmt.Println("  .::::::::::::::.  ")
 	fmt.Println("    oO:::::::Oo     ")
 	fmt.Println("--What time is it?--")
-	fmt.Println(time.Now())
+	fmt.Println(t.Now())
 	fmt.Println("Hello simple junk test!")
 }
