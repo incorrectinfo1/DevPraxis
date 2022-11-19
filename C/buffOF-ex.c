@@ -1,7 +1,7 @@
 /*
 for compiling
 ``` within terminal
-gcc -m32 -fno-stack-protector
+gcc -m32 -fno-stack-protector buffOF-ex.c -o buffOF-ex-live
 ```
 */
 
@@ -17,7 +17,7 @@ int main ()
     gets(input_buffer); // This is the deprecated function. It doesn't count characters entered.
     // fgets(input_buffer,stdin,sizeof(input_buffer)); // A more secure way of taking userinput.
 
-    if(strcmp(input_buffer, "passw0rd"))
+    if(strcmp(input_buffer, "Passw0rd"))
     {
         printf ("\n Wrong Password :( \n");
     }
