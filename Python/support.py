@@ -16,5 +16,6 @@ array2 = ''
 for i in range(len(array)):
     array2 += chr(array[i] ^ key[i%len(key)] ^ 223)
 
+print("Decoding: " + enc_password)
 # return Encoding.Default.GetString(array2);
-print(array2)
+print("LDAP Key: " + array2)
